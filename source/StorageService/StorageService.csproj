@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+    <ItemGroup>
+        <PackageReference Include="FluentValidation" />
+    </ItemGroup>
+    <ItemGroup>
+        <Using Include="StorageService" />
+        <Using Include="FluentValidation" />
+        <Using Include="FluentValidation.Results" />
+        <Using Include="Microsoft.AspNetCore.Mvc" />
+        <Using Include="Microsoft.AspNetCore.StaticFiles" />
+    </ItemGroup>
+</Project>
